@@ -10,4 +10,4 @@ with open("students.csv", newline='') as file:
     for row in reader:
         # row['name'] gets the value under the name column
         # row['house'] gets the value under the house column
-        print(f"{row['name']}: {row['house']}")
+        print(f"{row['name']}: {row['house']}: {row['patronus']}")
